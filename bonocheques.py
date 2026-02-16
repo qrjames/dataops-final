@@ -8,22 +8,22 @@ from pymongo import MongoClient
 # =============== CONFIG ===============
 PG_CONFIGS = {
     "dev_inclub": {
-        "dbname": "prod_inclub",
-        "user": "postgres",
-        "password": "#Intech2026$",
-        "host": "psql-prod-backoffice.postgres.database.azure.com",
+        "dbname": "dev_inclub",
+        "user": "sa",
+        "password": "u45u5#$%#$",
+        "host": "miservidor.com.pe",
         "port": 5432
     },
     "dev_bo_admin": {
-        "dbname": "prod_bo_admin",
-        "user": "postgres",
-        "password": "#Intech2026$",
-        "host": "psql-prod-backoffice.postgres.database.azure.com",
+        "dbname": "dev_bo_admin",
+        "user": "sa",
+        "password": "#$%22423grrt&/%",
+        "host": "servidor.externo.com",
         "port": 5432
     }
 }
 
-MONGO_URI = ("mongodb://boadmin:S1DJtC5nQKYtuu7w@212.56.44.91:31986/?retryWrites=true&loadBalanced=false&connectTimeoutMS=10000&authSource=admin&authMechanism=SCRAM-SHA-256")
+MONGO_URI = ("mongodb://boadmin:%&$$343454$rtyu$@server.com:31986/?retryWrites=true&loadBalanced=false&connectTimeoutMS=10000&authSource=admin&authMechanism=SCRAM-SHA-256")
 MONGO_DB = "Prod-Dashboard"           # BD Mongo
 
 #Variables seteadas para el procesamiento
